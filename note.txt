@@ -1,0 +1,5 @@
+Note: This website works at it's best in Google Chrome.
+
+The use of CSS Grids on html pages; basket, confirmation, checkout and payment does not work correctly in Explorer.
+
+The slideshow on the home screen also does not work in Explorer.

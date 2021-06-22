@@ -1,0 +1,238 @@
+/* Validated 10-04-18 */
+
+.prod1_him {
+  width: 45%;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: IWOOT.2 (2018) */
+  background-image: url('../images/tool.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+
+
+.prod2_him {
+  margin-left: 55%;
+  height: 200px;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: Menkind.co.uk.3 (2018) */
+  background-image: url('../images/spud_b.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+.prod3_him {
+  width: 45%;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: IWOOT.3 (2018) */
+  background-image: url('../images/coster.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.prod4_him {
+    margin-left: 55%;
+    height: 200px;
+    border-style: solid;
+    border-width: .5em;
+    border-color: Navy;
+    text-align: center;
+    overflow: hidden;
+	/* Image source: IWOOT.4 (2018) */
+    background-image: url('../images/robot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 5px 10px Aqua;
+    font-family: monospace;
+    background-color: white;
+	margin-bottom: 20px;
+}
+
+.prod5_him {
+  width: 45%;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: Firebox.com.1 (2018) */
+  background-image: url('../images/game_boy.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+}
+
+.prod6_him {
+  margin-left: 55%;
+  height: 200px;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: IWOOT.5 (2018) */
+  background-image: url('../images/transformer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+}
+
+/*For her products start*/
+
+.prod1_her {
+  width: 45%;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Lostworld.co.uk (2018) */
+  background-image: url('../images/mug2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+.prod2_her {
+  margin-left: 55%;
+  height: 200px;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: Firebox.com.3 (2018) */
+  background-image: url('../images/speaker.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+
+.prod3_her {
+  width: 45%;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: Firebox.com.2 (2018) */
+  background-image: url('../images/socks.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.prod4_her {
+    margin-left: 55%;
+    height: 200px;
+    border-style: solid;
+    border-width: .5em;
+    border-color: Navy;
+    text-align: center;
+    overflow: hidden;
+	/* Image source: IWOOT.6 (2018) */
+    background-image: url('../images/gin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: 5px 10px Aqua;
+    font-family: monospace;
+    background-color: white;
+	margin-bottom: 20px;
+}
+
+.prod5_her {
+  width: 45%;
+  height: 200px;
+  float: left;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: Menkind.co.uk.6 (2018) */
+  background-image: url('../images/unicorn2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+}
+
+.prod6_her {
+  margin-left: 55%;
+  height: 200px;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  text-align: center;
+  overflow: hidden;
+  /* Image source: Firebox.com.4 (2018) */
+  background-image: url('../images/turn_table.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  box-shadow: 5px 10px Aqua;
+  font-family: monospace;
+  background-color: white;
+}

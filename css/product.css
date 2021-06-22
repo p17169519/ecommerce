@@ -1,0 +1,296 @@
+
+/* Start of Product page. Knowledge on relative and absolute positioning was gained via YouTube video LearnWebCode (2011) */
+/* Validated 10-04-18 */
+.product_contain {
+  width: 90%;
+  border-color: Navy;
+  border-style: solid;
+  border-width: .5em;
+  overflow: auto;
+  margin-left: 100px;
+  margin-top: 20px;
+  height: auto;
+  position: relative;
+  z-index: 10;  /*Allows nav drop down to be viewed */
+}
+
+.product_pic {
+  width: 60%;
+  border-style: solid;
+  border-width: .5em;
+  border-color: Navy;
+  box-shadow: 5px 10px Aqua;
+  float: left;
+  /* Image from: Lostworold.co.uk (2018) */
+  background: url('../images/mug2.png');
+  background-position: center;
+  background-size: cover;
+  height: 520px;
+  margin: 20px;
+  position: absolute;
+}
+
+.right_side {
+	width: 30%;
+	float: right;
+	margin-right: 0px;
+	overflow: auto;
+}
+
+.product_discript {
+ padding: 20px;
+ height: auto;
+}
+
+h1 {
+	font-size: 40px;
+	color: navy;
+	font-family: monospace;
+}
+
+.product_discript p {
+	font-size: 150%;
+}
+
+.product_discript ul {
+	border-style: solid;
+	font-size: 150%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.product_discript a {
+	border-style: solid;
+    border-width: .2em;
+    border-color: Navy;
+    box-shadow: 5px 10px Aqua;
+	font-size: 200%;
+	text-decoration: none;
+	padding: 10px;
+	float: right;
+}
+
+.product_discript a:hover {
+	background-color: yellow;
+}
+
+.thumbnail {
+	float: left;
+	width: 40%;
+	margin: 570px 20px 20px 40px;
+	border-style: solid;
+	height: 240px;
+	padding: 10px 10px 0px 10px;
+	position: absolute;
+	overflow: hidden;
+	overflow-x: auto;
+	border-style: solid;
+    border-width: .5em;
+    border-color: navy;
+    box-shadow: 5px 10px Aqua;
+}
+
+.thumbnail img {
+	max-width: 100%;
+	width:255px;
+	height:220px;
+	
+}
+
+.pic1 {
+	float: left;
+	width: 40%;
+	border-style: solid;
+	height: 220px;
+}
+
+.pic2 {
+	/*float: left;*/
+	float: right;
+	width: 40%;
+	border-style: solid;
+	height: 220px;
+	/*margin-left: 35px;*/
+}
+
+
+/* Gained knowledge on CSS grid via YouTube video by Traversy Media (2017) */
+
+.wrapper {
+	display:grid;
+	grid-template-columns: 3fr 2fr;
+	grid-auto-rows:minmax(250px, auto);
+	margin: 20px 20px 20px 120px;
+	grid-gap: 1em;
+}
+
+.wrapper > div {
+	padding:1em;
+}
+
+.box {
+  border-color: Navy;
+  border-style: solid;
+  border-width: .5em;
+
+}
+
+.box ul {
+	font-size: 170%;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 20px;
+}
+
+.box ul li {
+	padding-bottom: 60px;
+}
+
+.box1 {
+	grid-column: 1/2;
+	grid-row: 1/3;
+	display: inline-block;
+}
+
+.box2 {
+	display: inline-block;
+}
+
+.box3 {
+	grid-column: 2/3;
+	display: inline-block;
+}
+
+.nested {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 1em;
+}
+
+.nested a {
+	border-style: solid;
+    border-width: .2em;
+    border-color: Navy;
+    box-shadow: 5px 10px Aqua;
+	font-size: 200%;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.nested a:hover {
+	background-color: yellow;
+}
+
+.nested1 {
+	display: grid;
+	grid-gap: 1em;
+	float: right;
+}
+
+.nested1 a {
+	border-style: solid;
+    border-width: .2em;
+    border-color: Navy;
+    box-shadow: 5px 10px Aqua;
+	font-size: 200%;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.nested1 a:hover {
+	background-color: yellow;
+}
+
+.box2 a {
+	border-style: solid;
+    border-width: .2em;
+    border-color: Navy;
+    box-shadow: 5px 10px Aqua;
+	font-size: 200%;
+	text-decoration: none;
+	padding: 10px;
+	float:right;
+}
+
+.box2 a:hover {
+	background-color: yellow;
+}
+/* End of Grid */
+
+/* Start of form CSS */
+
+form {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+input {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#card {
+	font-size: 20px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+}
+
+.email {
+	margin-left: 85px;
+}
+
+#town {
+	margin-left: 40px;
+}
+
+#address2 {
+	margin-left: 10px;
+}
+
+#postcode {
+	margin-left: 50px;
+}
+
+#first_name {
+	margin-left: 35px;
+}
+
+#last_name {
+	margin-left: 38px;
+}
+
+/*Sign_in.html page start */
+/* Gained knowledge on CSS grid via YouTube video by Traversy Media (2017) */
+.wrapper2 {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows:minmax(100px, auto);
+	margin: 20px 20px 20px 120px;
+	grid-gap: 1em;
+	overflow: auto;
+}
+
+.wrapper2 > div {
+	padding:1em;
+	border-color: Navy;
+    border-style: solid;
+    border-width: .5em;
+}
+
+.discount {
+	grid-column: 1/3;
+	background-color: aqua;
+	text-align: center;
+}
+
+.password {
+	margin-left: 47px;
+	margin-bottom: 0;
+}
+
+#confirm {
+	margin-left: 45px;
+	
+	
+}
